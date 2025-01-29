@@ -80,3 +80,44 @@ footer {
     font-size: 0.9em;
     color: #ddd; /* Lighter text color for footer */
 }
+
+
+/* Styling for the alliance-members section */
+.alliance-members {
+    border-radius: 12px;  /* Rounded corners for a soft appearance */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;  /* Smooth transition for hover effect */
+}
+
+.alliance-members:hover {
+    transform: translateY(-5px);  /* Slight lift on hover */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);  /* Deeper shadow on hover */
+}
+
+.alliance-members h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2C3E50;  /* Dark color for readability */
+    text-align: center;  /* Center the heading */
+    margin-bottom: 25px;  /* Space below the heading */
+    font-family: 'Arial', sans-serif;  /* Clean, modern font */
+    letter-spacing: 1px;  /* Slight spacing for a more refined look */
+    text-transform: uppercase;  /* Make heading uppercase for emphasis */
+    border-bottom: 3px solid #4caf50;  /* Blue underline for visual interest */
+    padding-bottom: 10px;  /* Padding below the heading */
+}
+
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2C3E50;  /* Dark color for readability */
+    text-align: center;  /* Center the heading */
+    margin-bottom: 25px;  /* Space below the heading */
+    font-family: 'Arial', sans-serif;  /* Clean, modern font */
+    letter-spacing: 1px;  /* Slight spacing for a more refined look */
+    text-transform: uppercase;  /* Make heading uppercase for emphasis */
+    border-bottom: 3px solid #4caf50;  /* Blue underline for visual interest */
+    padding-bottom: 10px;  /* Padding below the heading */
+}
