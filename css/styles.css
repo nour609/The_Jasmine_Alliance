@@ -1,0 +1,82 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;  /* Sets the font for the entire page */
+    background-color: #e8f5e9;        /* Light green background for the body */
+    margin: 0;                         /* Removes any default margin */
+    padding: 0;                        /* Removes any default padding */
+    direction: rtl;                    /* Right-to-left text direction for Arabic content */
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff;         /* White background for the header */
+    padding: 20px 30px;                /* Adds space around the header content (same left/right as content) */
+    margin: 0;                         /* Removes any default margin */
+    text-align: center;                /* Centers the content inside the header */
+    max-width: 800px;                  /* Ensures the header width matches the content */
+    margin: 0 auto;                    /* Centers the header on the page */
+    border-radius: 8px;                /* Rounded corners for the content box */
+}
+
+/* Logo image styling */
+header img {
+    width: 300px;                      /* Increases the logo size */
+    height: auto;                      /* Maintains the aspect ratio */
+    margin-bottom: 20px;                /* Adds some space below the logo */
+}
+
+/* Main content section */
+.content {
+    padding: 30px;                     /* Adds padding inside the content area */
+    background-color: #ffffff;         /* White background for the content */
+    max-width: 800px;                  /* Limits the width of the content */
+    margin: 20px auto;                 /* Centers the content with margin on top and bottom */
+    border-radius: 8px;                /* Rounded corners for the content box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow around the content box */
+}
+
+/* Heading styling inside content */
+.content h1 {
+    color: #000000;                    /* Green color for the heading */
+    font-size: 26px;                    /* Larger font size for the title */
+    margin-bottom: 20px;                /* Adds space below the title */
+}
+
+/* Paragraph styling inside content */
+.content p {
+    color: #000000;                    /* Dark green text color for paragraphs */
+    line-height: 1.6;                   /* Increases the line height for better readability */
+    font-size: 16px;                    /* Standard font size for the content */
+    text-align: justify;                /* Justifies the text to make it evenly spaced */
+    margin-bottom: 15px;                /* Adds space between paragraphs */
+}
+
+/* Call to action (CTA) section */
+.cta {
+    display: block;
+    text-align: center;                 /* Centers the CTA button */
+    margin-top: 30px;                   /* Adds space above the CTA */
+}
+
+/* Styling for the CTA button */
+.cta a {
+    text-decoration: none;              /* Removes underline from the link */
+    color: white;                       /* White text color */
+    background-color: #4caf50;          /* Green background color for the button */
+    padding: 15px 30px;                 /* Adds padding inside the button */
+    border-radius: 5px;                 /* Rounded corners for the button */
+    font-size: 18px;                    /* Larger font size for the button text */
+    transition: background-color 0.3s;  /* Smooth transition effect for hover state */
+}
+
+/* Hover effect for the CTA button */
+.cta a:hover {
+    background-color: #388e3c;          /* Darker green when the button is hovered */
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #ddd; /* Lighter text color for footer */
+}
