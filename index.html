@@ -16,19 +16,19 @@
             align-items: center;
             flex-direction: column;
             height: 100vh;
+            text-align: center;
         }
         .logo {
-            width: 100px; /* Increased the size of the logo */
-            margin-bottom: 10px;
+            width: 200px; /* Adjusted logo size */
+            margin-bottom: 20px;
         }
         .container {
-            width: 80%;
+            width: 90%;
             max-width: 800px;
-            padding: 30px;
+            padding: 20px;
             background-color: #fff;
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -44,7 +44,7 @@
             margin-bottom: 20px;
         }
         .official-button {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-weight: bold;
             color: white;
             background-color: #4CAF50;
@@ -60,7 +60,6 @@
         }
         .arabic-text {
             direction: rtl;
-            text-align: center;
             font-family: 'Arial', sans-serif;
             margin-bottom: 40px;
         }
@@ -68,14 +67,47 @@
             margin-bottom: 40px;
             width: 100%;
         }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .logo {
+                width: 150px; /* Smaller logo for tablets */
+            }
+            h1 {
+                font-size: 2rem; /* Smaller font size for h1 on mobile/tablets */
+            }
+            p {
+                font-size: 1.1rem; /* Adjust paragraph text for smaller screens */
+            }
+            .official-button {
+                font-size: 1.1rem;
+                padding: 12px 25px; /* Smaller buttons for mobile devices */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                width: 120px; /* Even smaller logo for phones */
+            }
+            h1 {
+                font-size: 1.8rem; /* Adjust header size for small screens */
+            }
+            p {
+                font-size: 1rem; /* Adjust text size for very small screens */
+            }
+            .official-button {
+                font-size: 1rem;
+                padding: 10px 20px; /* Small buttons for small screens */
+            }
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
         <div class="section arabic-text">
-                <!-- Logo Added Before Arabic Text -->
-    <img src="assets/logo.git" alt="شعار الجالية السورية" class="logo">
+            <!-- Logo Added Before Arabic Text -->
+            <img src="assets/logo.git" alt="شعار الجالية السورية" class="logo">
 
             <h1>إعلان مهم</h1>
             <p>نحن فخورون بأنه قد أصبح لدينا موقع رسمي لتحالف الياسمين.</p>
@@ -92,5 +124,6 @@
             <button class="official-button" onclick="window.location.href='https://jasminealliance.ca/'">Go to Official Website</button>
         </div>
     </div>
+
 </body>
 </html>
